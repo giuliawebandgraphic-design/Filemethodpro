@@ -1,0 +1,6 @@
+{
+  "name": "File Method Pro",
+  "description": "Organizzatore automatico e intelligente di file e cartelle per creativi, stationery designer e professionisti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

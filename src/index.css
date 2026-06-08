@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-ivory: #FAF9F6;
+  --color-brand-warmwhite: #FFFFFF;
+  --color-brand-sage-light: #F3F4EE;
+  --color-brand-sage: #8B9474;
+  --color-brand-sage-medium: #747C5D;
+  --color-brand-sage-dark: #4A5137;
+  --color-brand-taupe: #7A736E;
+  --color-brand-taupe-light: #EAE8E6;
+  --color-brand-taupe-dark: #6d6159;
+  --color-brand-terracotta: #9f6c69;
+  --color-brand-terracotta-dark: #7f514e;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #FAF9F6;
+  color: #6d6159;
+  font-family: var(--font-sans);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.bg-ivory {
+  background-color: #FAF9F6;
+}
+
+.bg-sage {
+  background-color: #8B9474;
+}
+
+.bg-terracotta {
+  background-color: #9f6c69;
+}
+
+.text-sage {
+  color: #8B9474;
+}
+
+.text-terracotta {
+  color: #9f6c69;
+}
+
+.border-taupe {
+  border-color: rgba(122, 115, 110, 0.2);
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+/* Elegant scrollbar styling as specified in the theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 148, 116, 0.3);
+  border-radius: 10px;
+}
+
